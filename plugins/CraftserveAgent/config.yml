@@ -1,0 +1,5 @@
+# Is the auto-whitelist function enabled?
+# Auto-whitelist function grants OP status and adds to the whitelist the first
+# joining player. Other players are kicked while joining and awaiting
+# verification process.
+is-auto-whitelist-enabled: true

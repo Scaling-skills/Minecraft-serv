@@ -1,0 +1,247 @@
+[16:43:16] [ServerMain/WARN]: [oshi.util.platform.windows.PerfDataUtil] Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
+[16:43:16] [ServerMain/WARN]: [oshi.util.platform.windows.PerfCounterQueryHandler] Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
+[16:43:16] [ServerMain/WARN]: [oshi.util.platform.windows.PerfCounterQuery] Disabling further attempts to query Paging File.
+[16:43:17] [ServerMain/WARN]: [oshi.util.platform.windows.WmiQueryHandler] COM exception: Invalid Query: SELECT PERCENTUSAGE FROM Win32_PerfRawData_PerfOS_PagingFile
+[16:43:20] [ServerMain/INFO]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:43:21] [ServerMain/INFO]: Loaded 7 recipes
+[16:43:21] [Server thread/INFO]: Starting minecraft server version 1.20.2
+[16:43:21] [Server thread/INFO]: Loading properties
+[16:43:21] [Server thread/INFO]: This server is running Paper version git-Paper-291 (MC: 1.20.2) (Implementing API version 1.20.2-R0.1-SNAPSHOT) (Git: ce7f068)
+[16:43:22] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:43:22] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:43:22] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[16:43:22] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[16:43:22] [Server console handler/ERROR]: [TerminalConsole] Failed to read console input
+java.io.IOException: Nieprawidłowe dojście
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:293) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:311) ~[?:?]
+	at java.io.BufferedInputStream.implRead(BufferedInputStream.java:386) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:365) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:333) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:376) ~[?:?]
+	at sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:219) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:173) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:189) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.implReadLine(BufferedReader.java:371) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:348) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:437) ~[?:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:180) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:102) ~[paper-1.20.2.jar:git-Paper-291]
+	Suppressed: java.io.IOException: Nieprawidłowe dojście
+		at java.io.FileDescriptor.close0(Native Method) ~[?:?]
+		at java.io.FileDescriptor.close(FileDescriptor.java:293) ~[?:?]
+		at java.io.FileInputStream$1.close(FileInputStream.java:523) ~[?:?]
+		at java.io.FileDescriptor.closeAll(FileDescriptor.java:351) ~[?:?]
+		at java.io.FileInputStream.close(FileInputStream.java:521) ~[?:?]
+		at java.io.BufferedInputStream.close(BufferedInputStream.java:584) ~[?:?]
+		at sun.nio.cs.StreamDecoder.implClose(StreamDecoder.java:428) ~[?:?]
+		at sun.nio.cs.StreamDecoder.lockedClose(StreamDecoder.java:268) ~[?:?]
+		at sun.nio.cs.StreamDecoder.close(StreamDecoder.java:253) ~[?:?]
+		at java.io.InputStreamReader.close(InputStreamReader.java:204) ~[?:?]
+		at java.io.BufferedReader.implClose(BufferedReader.java:637) ~[?:?]
+		at java.io.BufferedReader.close(BufferedReader.java:622) ~[?:?]
+		at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:183) ~[terminalconsoleappender-1.3.0.jar:?]
+		at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[terminalconsoleappender-1.3.0.jar:?]
+		at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:102) ~[paper-1.20.2.jar:git-Paper-291]
+[16:43:22] [Server thread/INFO]: Default game type: CREATIVE
+[16:43:22] [Server thread/INFO]: Generating keypair
+[16:43:22] [Server thread/INFO]: Starting Minecraft server on 127.0.0.1:36033
+[16:43:22] [Server thread/INFO]: Using default channel type
+[16:43:22] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[16:43:22] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[16:43:23] [Server thread/INFO]: [CraftserveAgent] Loading server plugin CraftserveAgent v[9349fe4] 2023-06-28 22:19 by aleksander
+[16:43:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:43:23] [Server thread/INFO]: [CraftserveAgent] Enabling CraftserveAgent v[9349fe4] 2023-06-28 22:19 by aleksander
+[16:43:23] [Server thread/ERROR]: [Companion] Error in 'telemetry' module.
+java.lang.Exception: Could not enable module.
+	at pl.craftserve.agent.module.AgentModule.setEnabled(AgentModule.kt:47) ~[CraftserveAgent.jar:?]
+	at pl.craftserve.agent.module.ModuleManager.setModulesEnabled(ModuleManager.kt:21) ~[CraftserveAgent.jar:?]
+	at pl.craftserve.agent.AgentPlugin.onEnable(AgentPlugin.kt:49) ~[CraftserveAgent.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281) ~[paper-api-1.20.2-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189) ~[paper-1.20.2.jar:git-Paper-291]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104) ~[paper-1.20.2.jar:git-Paper-291]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507) ~[paper-api-1.20.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R2.CraftServer.enablePlugin(CraftServer.java:646) ~[paper-1.20.2.jar:git-Paper-291]
+	at org.bukkit.craftbukkit.v1_20_R2.CraftServer.enablePlugins(CraftServer.java:557) ~[paper-1.20.2.jar:git-Paper-291]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:274) ~[paper-1.20.2.jar:git-Paper-291]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1086) ~[paper-1.20.2.jar:git-Paper-291]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:315) ~[paper-1.20.2.jar:git-Paper-291]
+	at java.lang.Thread.run(Thread.java:1623) ~[?:?]
+Caused by: java.lang.RuntimeException: Default telemetry directory does not exists! (X:\tmp)
+	at pl.craftserve.agent.module.impl.TelemetryModule.enable(TelemetryModule.java:50) ~[CraftserveAgent.jar:?]
+	at pl.craftserve.agent.module.AgentModule.setEnabled(AgentModule.kt:42) ~[CraftserveAgent.jar:?]
+	... 12 more
+[16:43:23] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:43:23] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:43:23] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:43:23] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:43:23] [Server thread/INFO]: Preparing level "world"
+[16:43:23] [Server thread/INFO]: -------- World Settings For [world] --------
+[16:43:23] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:43:23] [Server thread/INFO]: Simulation Distance: 10
+[16:43:23] [Server thread/INFO]: View Distance: 10
+[16:43:23] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:43:23] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:43:23] [Server thread/INFO]: Mob Spawn Range: 6
+[16:43:23] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:43:23] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[16:43:23] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: Potato Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: TorchFlower Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: GlowBerry Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: PitcherPlant Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[16:43:23] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[16:43:23] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[16:43:23] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[16:43:23] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:43:23] [Server thread/INFO]: Max TNT Explosions: 100
+[16:43:23] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:43:23] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:43:23] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[16:43:23] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:43:23] [Server thread/INFO]: Simulation Distance: 10
+[16:43:23] [Server thread/INFO]: View Distance: 10
+[16:43:23] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:43:23] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:43:23] [Server thread/INFO]: Mob Spawn Range: 6
+[16:43:23] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:43:23] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[16:43:23] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: Potato Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: TorchFlower Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: GlowBerry Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: PitcherPlant Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[16:43:23] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[16:43:23] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[16:43:23] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[16:43:23] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:43:23] [Server thread/INFO]: Max TNT Explosions: 100
+[16:43:23] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:43:23] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:43:23] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[16:43:23] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:43:23] [Server thread/INFO]: Simulation Distance: 10
+[16:43:23] [Server thread/INFO]: View Distance: 10
+[16:43:23] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:43:23] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:43:23] [Server thread/INFO]: Mob Spawn Range: 6
+[16:43:23] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:43:23] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[16:43:23] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: Potato Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: TorchFlower Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: GlowBerry Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: PitcherPlant Growth Modifier: 100%
+[16:43:23] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[16:43:23] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[16:43:23] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[16:43:23] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[16:43:23] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:43:23] [Server thread/INFO]: Max TNT Explosions: 100
+[16:43:23] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:43:23] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:43:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:43:23] [Server thread/INFO]: Time elapsed: 237 ms
+[16:43:23] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[16:43:23] [Server thread/INFO]: Time elapsed: 23 ms
+[16:43:23] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[16:43:23] [Server thread/INFO]: Time elapsed: 23 ms
+[16:43:23] [Server thread/INFO]: Starting GS4 status listener
+[16:43:24] [Server thread/INFO]: Thread Query Listener started
+[16:43:24] [Query Listener #1/INFO]: Query running on 127.0.0.1:36033
+[16:43:24] [Server thread/INFO]: Running delayed init tasks
+[16:43:24] [Server thread/INFO]: Done (2.135s)! For help, type "help"
+[16:43:24] [Server thread/INFO]: Timings Reset
+[16:43:39] [User Authenticator #0/INFO]: UUID of player Unreconstructed is b046a6ce-7c4a-3211-b772-5ab61d43896d
+[16:43:39] [Server thread/WARN]: [UserModule] Found that user object from UserFile[directory=plugins\CraftserveAgent\userdata, playerId=b046a6ce-7c4a-3211-b772-5ab61d43896d, isLoaded=true] wasn't found, but the file exists.
+[16:43:39] [Server thread/INFO]: Unreconstructed joined the game
+[16:43:39] [Server thread/INFO]: Unreconstructed[/127.0.0.1:9396] logged in with entity id 271 at ([world]-30.766067732304332, 70.0, 303.23108190897466)
+[16:43:42] [Server thread/INFO]: Unreconstructed lost connection: Disconnected
+[16:43:42] [Server thread/INFO]: Unreconstructed left the game
+[16:45:33] [Server thread/INFO]: Saving the game (this may take a moment!)
+[16:45:33] [Server thread/INFO]: Saved the game
+[16:45:34] [Server thread/INFO]: Stopping the server
+[16:45:34] [Server thread/INFO]: Stopping server
+[16:45:34] [Server thread/INFO]: [CraftserveAgent] Disabling CraftserveAgent v[9349fe4] 2023-06-28 22:19 by aleksander
+[16:45:34] [Server thread/INFO]: Saving players
+[16:45:34] [Server thread/INFO]: Saving worlds
+[16:45:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:45:34] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[16:45:34] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[16:45:34] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[16:45:34] [Server thread/INFO]: [ChunkHolderManager] Saved 4 block chunks, 117 entity chunks, 0 poi chunks in world 'world' in 0,16s
+[16:45:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:45:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[16:45:34] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[16:45:34] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[16:45:34] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[16:45:34] [Server thread/INFO]: [ChunkHolderManager] Saved 15 block chunks, 59 entity chunks, 0 poi chunks in world 'world_nether' in 0,02s
+[16:45:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:45:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[16:45:34] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[16:45:34] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[16:45:34] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[16:45:34] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 42 entity chunks, 0 poi chunks in world 'world_the_end' in 0,01s
+[16:45:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:45:34] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:45:34] [Server thread/INFO]: Flushing Chunk IO
+[16:45:34] [Server thread/INFO]: Closing Thread Pool
+[16:45:34] [Server thread/INFO]: Closing Server
